@@ -1,0 +1,207 @@
+<html>
+
+<header>
+    <title>
+        Google Alike Webpage for Microverse
+    </title>
+    <style>
+        #logo {padding-top:150px; text-align: center;}
+        #texto {text-align: center; padding-top:18px;}
+        #botones {text-align: center; padding-top:10px;}
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: inline;
+            float: right;
+            list-style-type: none;
+            font-family: arial,sans-serif;
+            font-size: 13px;
+        }
+        li {
+            padding: 5px 5px;
+            float: right;
+        }        
+        #topbar {
+            padding-right: 20px;
+            padding-top: 13px;
+            position: fixed;
+            right: 0;
+            top: 0;
+        }
+        #topbar li a {
+            text-decoration: none;
+            color:rgba(0,0,0,0.87);
+        }
+        input{
+            -webkit-border-radius: 50px;
+            -moz-border-radius: 50px;
+            border-radius: 50px;
+            border: none;
+            padding: 10px;
+            padding-left: 55px;
+            background:url(lupita.jpg) no-repeat left, url(microphone.jpg) no-repeat right; 
+            margin: 10px;
+            height: 45px;
+            width: 600px;
+            border:1px solid #eaeaea;
+            outline:none;
+            font-size: 16px;
+        }
+        input:hover{
+            border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+        }
+        input:focus{
+            border-color:#4d90fe;
+        }
+        input[type="submit"] {
+            border-radius: 4px;
+            background: #f2f2f2;
+            border: 1px solid #f2f2f2;
+            color: #757575;
+            cursor: default;
+            font-size: 14px;
+            width: auto;
+            padding: 0 16px;
+            height:36px;
+        }
+        input[type="submit"]:hover {
+            box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+            background: #f8f8f8;
+            border: 1px solid #c6c6c6;
+            box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+            color: #222;
+            cursor: pointer;
+        }
+        #topbar li a:hover {
+            text-decoration:underline;
+        }
+        #subtext {
+            padding-top: 14px;
+            text-align: center;
+            font-family: arial,sans-serif;
+            font-size: 13px;
+        }
+        #subtext a {
+            text-decoration: none;
+        }
+        #subtext a:hover {
+            text-decoration: underline;
+        }
+        #footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            background-color: #f2f2f2;
+            width: 100%;
+            line-height: 30px;
+            min-width: 980px;
+            font-family: arial,sans-serif;
+            border-style: solid;
+            border-color: #cccccc;
+            border-left: none;
+            border-right: none;
+            border-bottom: none;
+            border-width: 1px;
+            
+        }
+        #upfooter {
+            color:#5f6368;
+            position: fixed;
+            left: 0;
+            bottom: 40;
+            background-color: #f2f2f2;
+            width: 100%;
+            line-height: 30px;
+            min-width: 980px;
+            font-family: arial,sans-serif;
+            border-style: solid;
+            border-color: #cccccc;
+            border-left: none;
+            border-right: none;
+            border-bottom: none;
+            border-width: 1px;            
+        }
+        #footer ul {
+            margin-right: 30px;
+        }
+        #upfooter ul {
+            margin-right: 30px;
+        }
+        #footizq {
+            margin-left: 30px;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: inline;
+            float: left;
+            list-style-type: none;
+            font-family: arial,sans-serif;
+            font-size: 15px;
+        }
+        #footer li {
+            padding-left: 27px;
+        }
+        #upfooter li {
+            padding-left: 27px;
+        }
+        #footer li a {
+            color:#5f6368;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        #footer li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</header>
+
+<body>
+    <div id="topbar">
+        <ul>
+            <li><a href="#">Imágenes</a></li>
+            <li><a href="#">Gmail</a></li>
+        </ul>
+    </div>
+
+    <div id="logo">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    </div>
+
+    <div id="texto">
+        <input type="text" title="Buscar">
+    </div>
+
+    <div id ="botones">
+        <input type="submit" title="Ir" value="Buscar con Google">
+        <input type="submit" title="Ir" value="Me siento con suerte">
+    </div>
+
+    <div id="subtext">
+        Ofrecido por Sergio en: <a href="https://github.com/chubaquelo">Github</a>
+    </div>
+
+    <div id="upfooter">
+        <ul id="footizq">
+            <li>Argentina</li>
+        </ul>
+    </div>
+
+    <div id="footer">
+        <ul id="footizq">
+            <li><a href="#">Cómo funciona la Búsqueda</a></li>
+            <li><a href="#">Sobre Google</a></li>
+            <li><a href="#">Negocios</a></li>
+            <li><a href="#">Publicidad</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="#">Preferencias</a></li>
+            <li><a href="#">Condiciones</a></li>
+            <li><a href="#">Privacidad</a></li>
+        </ul>
+    </div>
+    
+</body>
+
+</html>
